@@ -10,6 +10,40 @@
     <header>
         <br><br>
         <h1><strong>SuperPig. Улучшенная добавка для свиней, которая позволит улучшить среднесуточный прирост в три раза!!!</strong></h1>
+        <form action="/submit" method="post">
+            <label for="username">Имя пользователя:</label>
+            <input type="text" id="username"name="username"
+        placeholder="Введите Ваше имя">
+
+            <label for="password">Пароль:</label>
+            <input type="password" id="password" name="password"
+        placeholder="Введите пароль">    
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email"
+        placeholder="Введите Ваш email">
+        
+            <label for="country">Страна:</label>
+            <select id="country" name="country">
+                <option value="RU">Россия</option>
+                <option value="US">США</option>
+                <option value="CN">Китай</option>
+                <option value="ES">Испания</option>
+                <option value="FR">Франция</option>
+                <option value="IE">Ирландия</option>
+                <option value="IT">Италия</option>
+                <option value="IR">Иран</option>
+                <option value="IQ">Ирак</option>
+                <option value="IN">Индия</option>
+                <option value="DE">Германия</option>
+            </select>
+
+            <label for="message">Сообщение:</label>
+            <textarea id="message" name="message" rows="10" cols="30"
+            placeholder="Введите Ваше сообщени"></textarea>
+
+            <input type="submit" value="Отправить">
+        </form>
         <nav>
             <ul>
                 <li><a href="#home"><strong>Главная</strong></a></li>
